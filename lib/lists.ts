@@ -68,3 +68,36 @@ export const contact_list = [
     text: "+234 802 968 4754",
   },
 ];
+
+export const our_team_list = [
+  {
+    name: "Roseline Nkoronye",
+    role: "Nurse Practitioner and Founder",
+    job_desc:
+      "Leads EmRose Care Services, provides health coaching, and conducts ACLS, PALS, BLS, and Heartsaver courses.",
+  },
+  {
+    name: "Chinenye Lumenze",
+    role: "Digital and Social Media Manager, Life Purpose Coach and founder of Vessel of Purpose Podcast.",
+    job_desc:
+      "Crafts compelling narratives and visuals that connect with individuals across various social media platforms, learning styles, and cultures to meet everyone's needs.",
+  },
+  {
+    name: "Ugochi Emeonye",
+    role: "Clinical Research Coordinator and CNA Instructor",
+    job_desc:
+      "Conducts clinical trials, instructs CNA certification courses, and serves as a Licensed Public Notary.",
+  },
+  {
+    name: "Ezinne Alexis",
+    role: "Blogger for EmRose Care Services LLC",
+    job_desc:
+      "Creates and manages blog content for EmRose Care Services, focusing on health and wellness topics.",
+  },
+  {
+    name: "Members Board",
+    role: "Coordinator and CNA Instructor",
+    job_desc:
+      "Conducts clinical trials, instructs CNA certification courses, and serves as a Licensed Public Notary.",
+  },
+];
