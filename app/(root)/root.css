@@ -1,0 +1,22 @@
+form {
+  @apply grid gap-6;
+  .form-field-container {
+    @apply grid relative;
+    label {
+      @apply font-medium;
+    }
+    input,
+    textarea {
+      @apply border rounded-md p-1.5 resize-none bg-transparent border-primary-text focus:border-primary-text focus:border-opacity-100 placeholder:text-primary-text focus:placeholder:text-primary-text duration-300;
+    }
+    textarea {
+      @apply h-20;
+    }
+    .input-error {
+      @apply border-red-600 placeholder:text-red-500;
+    }
+    .error-message {
+      @apply absolute -bottom-5 text-sm duration-1000 text-red-600;
+    }
+  }
+}
