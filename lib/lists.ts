@@ -101,3 +101,18 @@ export const our_team_list = [
       "Conducts clinical trials, instructs CNA certification courses, and serves as a Licensed Public Notary.",
   },
 ];
+
+export const about_us_list = [
+  {
+    title: "Our Story",
+    desc: "At EmRose Care Services, we value your health and wellbeing. Our team is dedicated to providing the highest quality care and training, ensuring a stress-free and supportive environment for all our clients. Whether you need healthcare services, training, or wellness support, we are here to help you achieve your goals.",
+  },
+  {
+    title: "Our Mission",
+    desc: "Our mission is to provide high-quality training and healthcare services that improve the quality of life for individuals in our community, adhering to the highest standards set by the American Heart Association. We are committed to delivering exceptional care and support, ensuring the health and wellbeing of those we serve.",
+  },
+  {
+    title: "Our Vision",
+    desc: "To be a leading provider of innovative healthcare training and wellness services, empowering our community to achieve optimal health and well-being through excellence, compassion, and cutting-edge care.",
+  },
+];
