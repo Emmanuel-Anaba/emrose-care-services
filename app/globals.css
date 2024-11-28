@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-background: #f3f4f6;
+  --primary-border: #d1d5db;
+  --primary-text: #1f2937;
+  --alternate-text: #f9fafb;
+}
+
+.dark {
+  --primary-background: #1f2937;
+  --primary-text: #f3f4f6;
+  --primary-border: #374151;
+  --alternate-text: #030712;
+}

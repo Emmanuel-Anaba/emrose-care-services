@@ -6,6 +6,16 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary-background": "var(--primary-background)",
+        "primary-border": "var(--primary-border)",
+        "primary-text": "var(--primary-text)",
+        "alternate-text": "var(--alternate-text)",
+      },
+    },
+  },
   plugins: [],
 } satisfies Config;
