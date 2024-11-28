@@ -115,3 +115,13 @@ footer {
     }
   }
 }
+
+.service-card {
+  @apply border grid place-items-center gap-2 p-6 rounded-xl hover:scale-y-110 hover:scale-x-105 duration-700;
+  div {
+    @apply w-40 h-40 rounded-full overflow-hidden grid place-items-center relative;
+  }
+  p {
+    @apply font-semibold;
+  }
+}
