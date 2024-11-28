@@ -1,3 +1,11 @@
+@tailwind utilities;
+
+@layer utilities {
+  .link {
+    @apply hover:underline duration-300;
+  }
+}
+
 form {
   @apply grid gap-6;
   .form-field-container {
@@ -18,5 +26,62 @@ form {
     .error-message {
       @apply absolute -bottom-5 text-sm duration-1000 text-red-600;
     }
+  }
+}
+
+main {
+  @apply min-h-[calc(100svh-8rem)];
+}
+
+nav {
+  @apply h-16 flex justify-between items-center px-2 md:px-8 border-b sticky top-0 bg-inherit z-10;
+  > a {
+    @apply font-semibold text-2xl;
+  }
+  > div {
+    @apply flex items-center gap-6;
+    .nav-links {
+      @apply hidden md:flex items-center gap-6;
+      .active {
+        @apply font-medium after:w-full;
+      }
+      li {
+        @apply relative after:absolute after:h-0.5 after:bg-current 
+      after:left-1/2 after:-translate-x-1/2 hover:after:w-full after:duration-500 after:-bottom-0.5 cursor-pointer after:w-0;
+        a {
+          @apply block;
+        }
+      }
+    }
+    > svg {
+      @apply h-6 w-6 md:hidden;
+    }
+  }
+}
+
+.overlay {
+  @apply md:hidden fixed top-16 h-[calc(100svh-4rem)] inset-x-0 bg-black bg-opacity-20 z-[5];
+}
+
+aside {
+  @apply w-72 fixed top-16 h-[calc(100svh-4rem)] bg-inherit border-r-[1px] duration-500 md:h-[calc(100svh-7rem)] overflow-y-auto z-10 md:hidden;
+  .nav-links {
+    @apply md:hidden;
+    .active {
+      @apply font-medium border-l-4 border-primary-text;
+    }
+    li {
+      @apply block py-2 pl-6 cursor-pointer;
+      a {
+        @apply block;
+      }
+    }
+  }
+}
+
+footer {
+  @apply h-16 border-t grid text-center;
+  div {
+    @apply m-auto;
   }
 }
