@@ -116,3 +116,30 @@ export const about_us_list = [
     desc: "To be a leading provider of innovative healthcare training and wellness services, empowering our community to achieve optimal health and well-being through excellence, compassion, and cutting-edge care.",
   },
 ];
+
+export const services_list = [
+  {
+    title: "BLS (Basic Life Support) Courses",
+    desc: "<b>Focus:</b> On early CPR, basic airway management, and defibrillation. Includes a multiple-choice exam with an <b>84% pass </b> requirement. Same day completion card provided",
+  },
+  {
+    title: "ACLS (Advanced Cardiovascular Life Support) Courses",
+    desc: "Focus: Care for respiratory arrest, arrhythmias, coronary syndromes, and stroke. Details: Pre-course self-assessment required. Completion: Multiple-choice exam 84% pass with same-day certification.",
+  },
+  {
+    title: "PALS (Pediatric Advanced Life Support)",
+    desc: "Focus: Pediatric respiratory emergencies, shock, and cardiopulmonary arrest. Details: Pre-course self-assessment required. Completion: Multiple-choice exam 84% pass with same-day certification.",
+  },
+  {
+    title: "Heartsaver",
+    desc: "Focus: CPR, AED, and First Aid for non-healthcare providers. Completion: Same-day certification; no test required.",
+  },
+  {
+    title: "Flexible Scheduling",
+    desc: "Benefits: Classes are available on weekdays, with weekends as an optional convenience to accommodate busy schedules.",
+  },
+  {
+    title: "Preparation",
+    desc: "Before class: Review guidelines, watch videos, and complete the mandatory pre-assessment exam. More details provided upon sign-up.",
+  },
+];
