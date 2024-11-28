@@ -1,3 +1,9 @@
+import {
+  PiEnvelopeDuotone,
+  PiMapPinDuotone,
+  PiPhoneDuotone,
+  PiWhatsappLogoDuotone,
+} from "react-icons/pi";
 import * as y from "yup";
 
 export const formFields = [
@@ -42,4 +48,23 @@ export const navLinks = [
   { name: "Our Team", href: "/our-team" },
   { name: "Blog", href: "http://blog.localhost:3000" },
   { name: "Contact", href: "/contact" },
+];
+
+export const contact_list = [
+  {
+    icon: PiMapPinDuotone,
+    text: "1805 W Colonial Drive, Orlando, Florida 32804",
+  },
+  {
+    icon: PiEnvelopeDuotone,
+    text: "emrosecare2024@yahoo.com",
+  },
+  {
+    icon: PiPhoneDuotone,
+    text: "+1 (689) 287-5792",
+  },
+  {
+    icon: PiWhatsappLogoDuotone,
+    text: "+234 802 968 4754",
+  },
 ];
