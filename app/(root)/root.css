@@ -71,7 +71,7 @@ nav {
 }
 
 aside {
-  @apply w-72 fixed top-16 h-[calc(100svh-4rem)] bg-inherit border-r-[1px] duration-500 md:h-[calc(100svh-7rem)] overflow-y-auto z-10 md:hidden;
+  @apply w-72 fixed top-16 h-[calc(100svh-4rem)] bg-inherit border-r duration-500 overflow-y-auto z-10 md:hidden;
   .nav-links {
     @apply md:hidden;
     .active {
@@ -123,5 +123,15 @@ footer {
   }
   p {
     @apply font-semibold;
+  }
+}
+
+header {
+  @apply h-full flex flex-col items-center justify-center text-center border-b text-[#1f2937] bg-[url("/img/cover.jpg")] bg-cover bg-center;
+  div {
+    @apply w-5/6 m-auto;
+    p {
+      @apply text-lg font-medium;
+    }
   }
 }
