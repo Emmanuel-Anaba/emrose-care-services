@@ -15,3 +15,40 @@
   --primary-border: #374151;
   --alternate-text: #030712;
 }
+
+* {
+  @apply outline-0 border-primary-border;
+}
+
+svg {
+  @apply inline;
+}
+
+h1 {
+  @apply text-4xl md:text-6xl font-semibold text-center;
+}
+
+body {
+  @apply bg-primary-background text-primary-text font-[family-name:var(--font-geist-sans)];
+}
+
+main {
+  > .theme-switcher {
+    @apply absolute top-4 right-4;
+  }
+}
+
+.btn {
+  @apply border-current border hover:border-primary-text hover:bg-primary-text hover:text-alternate-text rounded-md py-2 px-8 disabled:bg-gray-950 disabled:text-gray-700 disabled:border-gray-950 duration-300;
+}
+
+.theme-switcher {
+  @apply flex border border-current rounded-full p-1 gap-1;
+  .current-theme {
+    @apply bg-primary-text text-alternate-text;
+  }
+  button {
+    @apply h-6 w-6 rounded-full grid place-items-center cursor-pointer
+    bg-primary-border duration-500;
+  }
+}
