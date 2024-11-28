@@ -34,3 +34,12 @@ export const formFields = [
       .required("Enter your message"),
   },
 ];
+
+export const navLinks = [
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "About Us", href: "/about-us" },
+  { name: "Our Team", href: "/our-team" },
+  { name: "Blog", href: "http://blog.localhost:3000" },
+  { name: "Contact", href: "/contact" },
+];
