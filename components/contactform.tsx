@@ -32,12 +32,10 @@ export default function ContactForm() {
       initialValues={initialValues}
       onSubmit={async (values, { resetForm }) => {
         try {
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
-          const { status, text } = await submitForm(values);
+          await submitForm(values);
           toast.success("Message sent! 😊");
           resetForm();
-        } catch (err) {
-          console.log(err);
+        } catch {
           toast.error("Message not sent! 😓");
         }
       }}>
