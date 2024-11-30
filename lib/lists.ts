@@ -46,7 +46,7 @@ export const navLinks = [
   { name: "Services", href: "/services" },
   { name: "About Us", href: "/about-us" },
   { name: "Our Team", href: "/our-team" },
-  { name: "Blog", href: "http://blog.localhost:3000" },
+  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
