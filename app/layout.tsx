@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/next";
 import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 
@@ -40,6 +41,7 @@ export default function RootLayout({
           closeOnClick
           theme="colored"
         />
+        <Analytics />
       </body>
     </html>
   );
